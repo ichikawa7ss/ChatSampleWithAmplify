@@ -16,12 +16,6 @@ DerivedData
 *.ipa
 *.xcuserstate
 
-*.xcodeproj/*
-*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcworkspace/contents.xcworkspacedata
-Generated/
-
 # CocoaPod
 Pods/*
 Podfile.lock
