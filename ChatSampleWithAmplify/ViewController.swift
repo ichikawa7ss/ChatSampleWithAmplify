@@ -22,6 +22,10 @@ class ViewController: UIViewController {
         createSubscription()
     }
 
+    @IBAction func tapCancelButton() {
+        subscription?.cancel()
+    }
+    
     private func createTodo(name: String, description: String) {
         let todo = Todo(name: name, description: description)
         Amplify.API.mutate(request: .create(todo)) { event in

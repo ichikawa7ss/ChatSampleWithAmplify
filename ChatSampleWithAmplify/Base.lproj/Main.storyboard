@@ -27,11 +27,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guL-k0-Aa7">
+                                <rect key="frame" x="183" y="565" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="tapCancelButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhF-7V-Fyb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="vIV-7t-dWg" firstAttribute="top" secondItem="raa-Bb-bfi" secondAttribute="bottom" constant="50.5" id="2jV-c6-vy0"/>
                             <constraint firstItem="raa-Bb-bfi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2yv-US-JDZ"/>
+                            <constraint firstItem="guL-k0-Aa7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3pQ-ac-5dx"/>
+                            <constraint firstItem="guL-k0-Aa7" firstAttribute="top" secondItem="vIV-7t-dWg" secondAttribute="bottom" constant="35" id="8UZ-Df-Nkj"/>
                             <constraint firstItem="vIV-7t-dWg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p2f-dz-MQb"/>
                             <constraint firstItem="raa-Bb-bfi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="vET-li-V1v"/>
                         </constraints>
