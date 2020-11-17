@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		75B5A7FF2563BDA70017842B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B5A7FD2563BDA70017842B /* Main.storyboard */; };
 		75B5A8012563BDA90017842B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75B5A8002563BDA90017842B /* Assets.xcassets */; };
 		75B5A8042563BDA90017842B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B5A8022563BDA90017842B /* LaunchScreen.storyboard */; };
+		75B5A80D2563C7B50017842B /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 75B5A80B2563C7B50017842B /* awsconfiguration.json */; };
+		75B5A80E2563C7B50017842B /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 75B5A80C2563C7B50017842B /* amplifyconfiguration.json */; };
 		F725A9E842FBB93C25A24F3C /* Pods_ChatSampleWithAmplify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F1B5A059A98F938D4E4D0B /* Pods_ChatSampleWithAmplify.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		75B5A8002563BDA90017842B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75B5A8032563BDA90017842B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75B5A8052563BDA90017842B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75B5A80B2563C7B50017842B /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		75B5A80C2563C7B50017842B /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
 		E1EE1F03EE0653AE6595F485 /* Pods-ChatSampleWithAmplify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSampleWithAmplify.release.xcconfig"; path = "Target Support Files/Pods-ChatSampleWithAmplify/Pods-ChatSampleWithAmplify.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +75,8 @@
 		75B5A7F62563BDA70017842B /* ChatSampleWithAmplify */ = {
 			isa = PBXGroup;
 			children = (
+				75B5A80C2563C7B50017842B /* amplifyconfiguration.json */,
+				75B5A80B2563C7B50017842B /* awsconfiguration.json */,
 				75B5A7F72563BDA70017842B /* AppDelegate.swift */,
 				75B5A7F92563BDA70017842B /* SceneDelegate.swift */,
 				75B5A7FB2563BDA70017842B /* ViewController.swift */,
@@ -88,7 +94,6 @@
 				1EACC8927267ABE58A34A3DE /* Pods-ChatSampleWithAmplify.debug.xcconfig */,
 				E1EE1F03EE0653AE6595F485 /* Pods-ChatSampleWithAmplify.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,7 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75B5A80D2563C7B50017842B /* awsconfiguration.json in Resources */,
 				75B5A8042563BDA90017842B /* LaunchScreen.storyboard in Resources */,
+				75B5A80E2563C7B50017842B /* amplifyconfiguration.json in Resources */,
 				75B5A8012563BDA90017842B /* Assets.xcassets in Resources */,
 				75B5A7FF2563BDA70017842B /* Main.storyboard in Resources */,
 			);
